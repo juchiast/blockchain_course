@@ -2,7 +2,7 @@ import binascii
 import struct
 from collections import OrderedDict
 
-from Cryptodome.PublicKey import RSA
+from Crypto.PublicKey import RSA
 
 from base.utils import compat_bytes, bigint_to_bytes
 from base.utxo import UTXO
